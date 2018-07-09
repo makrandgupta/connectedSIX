@@ -1,0 +1,12 @@
+{
+  "response": {
+    "directives": [
+      {
+        "type": "AudioPlayer.Stop"
+      }
+    ]
+  },
+  "sessionAttributes": {},
+  "userAgent": "ask-node/2.0.4 Node/v8.10.0",
+  "version": "1.0"
+}

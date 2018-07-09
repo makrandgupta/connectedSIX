@@ -1,0 +1,18 @@
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "SSML",
+      "ssml": "<speak>Here are some things you can say. “Play classic country music”, or “Play modern country music”, or you can always play your choice of station on iHeart Radio. You can also say, stop, if you’re done. So, how can I help?<\/speak>"
+    },
+    "shouldEndSession": false
+  },
+  "userAgent": "ask-node/2.0.4 Node/v8.10.0",
+  "sessionAttributes": {
+    "stationName": "Highwaymen Radio",
+    "previousIntent": "AMAZON.HelpIntent",
+    "previousQuestionKey": "HELP_SPEECH",
+    "returningUser": true,
+    "stationId": "6851"
+  }
+}
