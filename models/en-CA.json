@@ -1,0 +1,258 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "connected six",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        },
+        {
+          "name": "BestOfIntent",
+          "slots": [
+            {
+              "name": "food",
+              "type": "AMAZON.Food",
+              "samples": [
+                "{food}"
+              ]
+            }
+          ],
+          "samples": [
+            "best of toronto",
+            "best in toronto",
+            "best {food} in toronto",
+            "best {food}"
+          ]
+        },
+        {
+          "name": "LocationIntent",
+          "slots": [
+            {
+              "name": "location",
+              "type": "AMAZON.LocalBusiness",
+              "samples": [
+                "{location}"
+              ]
+            }
+          ],
+          "samples": [
+            "I want to go to {location}",
+            "Tell me about {location}",
+            "I wanna hear more about {location}",
+            "{location}"
+          ]
+        },
+        {
+          "name": "AMAZON.MoreIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateSettingsIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NextIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PageUpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PageDownIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PreviousIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ScrollRightIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ScrollDownIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ScrollLeftIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ScrollUpIntent",
+          "samples": []
+        },
+        {
+          "name": "EmailIntent",
+          "samples": [
+            "email"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "fried chicken"
+              }
+            },
+            {
+              "name": {
+                "value": "veal sandwiches"
+              }
+            },
+            {
+              "name": {
+                "value": "tapas"
+              }
+            },
+            {
+              "name": {
+                "value": "brunch"
+              }
+            },
+            {
+              "name": {
+                "value": "dumplings"
+              }
+            },
+            {
+              "name": {
+                "value": "bugers"
+              }
+            },
+            {
+              "name": {
+                "value": "tacos",
+                "synonyms": [
+                  "soft taco",
+                  "hard taco",
+                  "taco"
+                ]
+              }
+            }
+          ],
+          "name": "AMAZON.Food"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "closest",
+                "synonyms": [
+                  "nearest to me",
+                  "nearest one",
+                  "closest one",
+                  "closest to me"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "grandElectric",
+                "synonyms": [
+                  "Grand Electric"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "laCarnita",
+                "synonyms": [
+                  "La Carnita Queen East",
+                  "La Carnita"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "sevenLives",
+                "synonyms": [
+                  "seven lives",
+                  "Seven Lives"
+                ]
+              }
+            }
+          ],
+          "name": "AMAZON.LocalBusiness"
+        }
+      ]
+    },
+    "dialog": {
+      "intents": [
+        {
+          "name": "BestOfIntent",
+          "confirmationRequired": false,
+          "slots": [
+            {
+              "name": "food",
+              "type": "AMAZON.Food",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.210808101480.392197379257"
+              }
+            }
+          ]
+        },
+        {
+          "name": "LocationIntent",
+          "confirmationRequired": false,
+          "slots": [
+            {
+              "name": "location",
+              "type": "AMAZON.LocalBusiness",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.690289885981.387753819453"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "prompts": [
+      {
+        "id": "Elicit.Slot.210808101480.392197379257",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "What do you have in mind?"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.690289885981.387753819453",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Which location would you like to go to?"
+          }
+        ]
+      }
+    ]
+  }
+}
