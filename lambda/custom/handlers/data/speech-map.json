@@ -1,0 +1,15 @@
+{
+  "LAUNCH_SPEECH": "Welcome to connectedSIX by BlogTO. We're Toronto's source for local news, culture, restaurants, events, and the best of the city.To get started, I'll need to confirm an address to set as your home base. This way we can let you know what's around you. Looks like your postal code is {postalCode}. Is that correct?",
+  "LAUNCH_RETURNING_USER_SPEECH": "Welcome back to connectedSIX by BlogTO. Would you like to hear about local news or search the Best of Toronto?",
+  "HELP_SPEECH": "Help speech for connectedSIX",
+  "BEST_OF_TACO_RESPONSE": "The top three are Seven Lives, LaCarnita Queen East, and Grand Electric. Which one would  you like to hear more about?",
+  "BEST_OF_TACO_REPROMPT": "Which one would  you like to hear more about? Seven Lives, La Carnita Queen East, or Grand Electric?",
+  "BEST_OF_UNKNOWN_RESPONSE": "Sorry I can't connect you to reviews for that yet. Try asking for tacos",
+  "LOCATION_SEVEN_LIVES_RESPONSE": "Seven Lives is at 69 Kensington Avenue and has an average rating of 4.4 out of 5. Want me to read the full blogTO review of Seven Lives?",
+  "LOCATION_LA_CARNITA_RESPONSE": "La Carnita Queen East is at 780 Queen Street East and has an average rating of 3.6 out of 5. Want me to read the full blogTO review of La Carnita Queen East?",
+  "LOCATION_UNKNOWN_RESPONSE": "Sorry I dont know that location",
+  "EMAIL_SENT_RESPONSE": "Sounds good. I've sent an email to your account. Enjoy your tacos!",
+  "NO_READ_BLOG_RESPONSE": "Sounds good, shall I Favourite this restaurant, add it to your To Do List, or email you a link to this blogTO review?",
+  "EXIT": "",
+  "GENERIC_ERROR": "Sorry, I missed that. Could you try again?"
+}

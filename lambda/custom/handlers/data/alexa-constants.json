@@ -1,0 +1,32 @@
+{
+  "INTENT_NAME": {
+    "AMAZON_YES_INTENT": "AMAZON.YesIntent",
+    "AMAZON_NO_INTENT": "AMAZON.NoIntent",
+    "AMAZON_CANCEL_INTENT": "AMAZON.CancelIntent",
+    "AMAZON_PAUSE_INTENT": "AMAZON.PauseIntent",
+    "AMAZON_STOP_INTENT": "AMAZON.StopIntent",
+    "AMAZON_HELP_INTENT": "AMAZON.HelpIntent",
+    "BEST_OF_INTENT": "BestOfIntent",
+    "EMAIL_INTENT": "EmailIntent",
+    "LOCATION_INTENT": "LocationIntent"
+  },
+  "REQUEST_TYPE": {
+    "LAUNCH_REQUEST": "LaunchRequest",
+    "INTENT_REQUEST": "IntentRequest",
+    "SESSION_ENDED_REQUEST": "SessionEndedRequest"
+  },
+  "ATTRIBUTE_NAME": {
+    "PREVIOUS_INTENT": "previousIntent",
+    "PREVIOUS_INTENT_PARAMS": "previousIntentParams",
+    "PREVIOUS_QUESTION_KEY": "previousQuestionKey",
+    "RETURNING_USER": "returningUser"
+  },
+  "SLOT_RESOLUTION": {
+    "STATUS_CODE": {
+      "ER_SUCCESS_MATCH": "ER_SUCCESS_MATCH"
+    }
+  },
+  "DIALOG_STATE": {
+    "COMPLETED": "COMPLETED"
+  }
+}
